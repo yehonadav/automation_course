@@ -39,7 +39,7 @@ Requirements:
 =============
 
 * BASIC CODING EXPERIENCE NEEDED  
-* Join our open source community with code templates, function and examples for various types of testing  
+* Join our open source community with code templates, functions and examples for various types of testing  
 * Windows/MAC laptop  
 * git, python 3.7+, pycharm, docker, jenkins, qaviton, web-app, mobile-app, desktop-app.  
   All the required installations are covered & documented.  
