@@ -1,7 +1,9 @@
 <h1 align="center" text-align="center">
-  <a href="https://www.python.org">
-    Automation <img src="https://4.bp.blogspot.com/-7VEq5GeG5DE/VzD1zX4i8TI/AAAAAAAALCo/lWuQgHOYtyAk1LkZ4UlulZGZFl-6FxW-wCLcB/s1600/website-automated-testing-tools-and-expertise.jpg" alt="Sublime's custom image"/> Nano Degree
+  <a href="https://www.qaviton.com">
+    <img src="https://4.bp.blogspot.com/-7VEq5GeG5DE/VzD1zX4i8TI/AAAAAAAALCo/lWuQgHOYtyAk1LkZ4UlulZGZFl-6FxW-wCLcB/s1600/website-automated-testing-tools-and-expertise.jpg" alt="Sublime's custom image"/>
+    Automation Nano Degree
   </a>
+  
 </h1>
 
 ```                         
