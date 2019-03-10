@@ -8,30 +8,30 @@
 </h1>
 
 ```                         
-                                      .andAHHAbnn.                                    
-                                   .aAHHHAAUUAAHHHAn.                                    
-                                  dHP^~"        "~^THb.                                    
-                            .   .AHF    QAVITON     YHA.   .                                    
-                            |  .AHHb.              .dHHA.  |                                    
-                            |  HHAUAAHAbn      adAHAAUAHA  |                                    
-                            I  HF~"_____        ____ ]HHH  I                                    
-                           HHI HAPK""~^YUHb  dAHHHHHHHHHH IHH                                    
-                           HHI HHHD> .andHH  HHUUP^~YHHHH IHH                                    
-                           YUI ]HHP     "~Y  P~"     THH[ IUP                                    
-                            "  `HK                   ]HH'  "                                    
-                                THAn.  .d.aAAn.b.  .dHHP                                    
-                                ]HHHHAAUP" ~~ "YUAAHHHH[                                    
-                                `HHP^~"  .annn.  "~^YHH'                                    
-                                 YHb    ~" "" "~    dHF                                    
-                                  "YAb..abdHHbndbndAP"                                    
-                                   THHAAb.  .adAHHF                                    
-                                    "UHHHHHHHHHHU"                                    
-                                      ]HHUUHHHHHH[                                    
-                                    .adHHb "HHHHHbn.                                    
-                             ..andAAHHHHHHb.AHHHHHHHAAbnn..                                    
-                        .ndAAHHHHHHUUHHHHHHHHHHUP^~"~^YUHHHAAbn.                                    
-                          "~^YUHHP"   "~^YUHHUP"        "^YUP^"                                    
-                               ""         "~~" 
+                                                  .andAHHAbnn.                                                
+                                               .aAHHHAAUUAAHHHAn.                                                
+                                              dHP^~"        "~^THb.                                                
+                                        .   .AHF    QAVITON     YHA.   .                                                
+                                        |  .AHHb.              .dHHA.  |                                                
+                                        |  HHAUAAHAbn      adAHAAUAHA  |                                                
+                                        I  HF~"_____        ____ ]HHH  I                                                
+                                       HHI HAPK""~^YUHb  dAHHHHHHHHHH IHH                                                
+                                       HHI HHHD> .andHH  HHUUP^~YHHHH IHH                                                
+                                       YUI ]HHP     "~Y  P~"     THH[ IUP                                                
+                                        "  `HK                   ]HH'  "                                                
+                                            THAn.  .d.aAAn.b.  .dHHP                                                
+                                            ]HHHHAAUP" ~~ "YUAAHHHH[                                                
+                                            `HHP^~"  .annn.  "~^YHH'                                                
+                                             YHb    ~" "" "~    dHF                                                
+                                              "YAb..abdHHbndbndAP"                                                
+                                               THHAAb.  .adAHHF                                                
+                                                "UHHHHHHHHHHU"                                                
+                                                  ]HHUUHHHHHH[                                                
+                                                .adHHb "HHHHHbn.                                                
+                                         ..andAAHHHHHHb.AHHHHHHHAAbnn..                                                
+                                    .ndAAHHHHHHUUHHHHHHHHHHUP^~"~^YUHHHAAbn.                                                
+                                      "~^YUHHP"   "~^YUHHUP"        "^YUP^"                                                
+                                           ""         "~~"                                                    
 ``` 
 In software testing, [`test automation`](https://en.wikipedia.org/wiki/Test_automation) is the use of special software (separate from the software being tested) to control the execution of tests and the comparison of actual outcomes with predicted outcomes. Test automation can automate some repetitive but necessary tasks in a formalized testing process already in place, or perform additional testing that would be difficult to do manually. Test automation is critical for continuous delivery and continuous testing.
 
