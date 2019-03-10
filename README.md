@@ -46,7 +46,7 @@ Requirements:
 
 Course Objectives:  
 ==================
-This course introduces core test automation principles tools, frameworks & Strategies for variant testing types and delivery needs.
+This course introduces core test automation principles, tools, frameworks & Strategies for variant testing types and delivery needs.
 Students will solve problems, explore real-world automation challenges, and create practical and contemporary testing applications.  
   
 Specific topic coverage:  
