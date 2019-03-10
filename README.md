@@ -64,11 +64,6 @@ Specific topic coverage:
 * Logging  
 * Bug detection & supervision  
   
-Programs:  
-* python 3.7+  
-* git 2.19.1+  
-* pycharm 2018.2.4+  
-  
     
 Course Outline:  
 ===============
