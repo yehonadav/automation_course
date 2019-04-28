@@ -72,4 +72,4 @@ Lessons | Topics                                                |
 ------- | ----------------------------------------------------- | 
    1    | ... |     
   
-[`We follow the ISTQB Syllabus`](https://www.istqb.org/downloads/send/48-advanced-level-test-automation-engineer-documents/201-advanced-test-automation-engineer-syllabus-ga-2016)
+[`We follow the ISTQB Syllabus`](https://github.com/yehonadav/automation_course/blob/master/Advanced-Test-Automation-Engineer-Syllabus-GA-2016.pdf)
