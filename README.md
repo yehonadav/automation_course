@@ -72,4 +72,5 @@ Lessons | Topics                                                |
 ------- | ----------------------------------------------------- | 
    1    | ... |     
   
-[`We follow the ISTQB Syllabus`](https://github.com/yehonadav/automation_course/blob/master/Advanced-Test-Automation-Engineer-Syllabus-GA-2016.pdf)
+[`We follow the ISTQB Syllabus`](https://github.com/yehonadav/automation_course/blob/master/Advanced-Test-Automation-Engineer-Syllabus-GA-2016.pdf)  
+[`for more information please visit the official site`](https://www.istqb.org/downloads/syllabi.html)
