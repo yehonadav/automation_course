@@ -78,7 +78,7 @@ Lessons | Topics                                                |
 
 We have exercises with 5 different levels of difficulty ranging from 0-4  
 in addition we recommend these sites to further sharp your skills:  
-[`qaviton`](https://github.com/qaviton/qaviton)  
+[`Qaviton`](https://github.com/qaviton/qaviton)  
 [`pytest`](https://docs.pytest.org/en/latest/)  
 [`jestjs`](https://jestjs.io/)  
 [`testNG`](https://www.guru99.com/all-about-testng-and-selenium.html)  
