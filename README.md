@@ -71,5 +71,21 @@ Course Outline:
 Lessons | Topics                                                | 
 ------- | ----------------------------------------------------- | 
    1    | ... |     
+  
+  
+[`Exercises:`](https://github.com/yehonadav/automation_course/tree/master/exercises)
+===============================================================================  
 
+We have exercises with 5 different levels of difficulty ranging from 0-4  
+in addition we recommend these sites to further sharp your skills:
+[`qaviton`](https://github.com/qaviton/qaviton)  
+[`pytest`](https://docs.pytest.org/en/latest/)  
+[`jestjs`](https://jestjs.io/)  
+[`testNG`](https://www.guru99.com/all-about-testng-and-selenium.html)  
+[`Gauge`](https://gauge.org/)    
+
+Additional Resources:
+---------------------  
+[`guru99`](https://www.guru99.com/automation-testing.html)   
+[`Getting started with Appium Framework`](https://www.youtube.com/watch?v=fCrpi_or7zU&list=PLcfljsUygh8BaSOYLchHxF-HQK8f14VfN&index=4&t=0s)  
 
