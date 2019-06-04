@@ -82,7 +82,7 @@ in addition we recommend these sites to further sharp your skills:
 [`pytest`](https://docs.pytest.org/en/latest/)  
 [`jestjs`](https://jestjs.io/)  
 [`testNG`](https://www.guru99.com/all-about-testng-and-selenium.html)  
-[`Gauge`](https://gauge.org/)    
+[`gauge`](https://gauge.org/)    
 [`robotframework`](https://robotframework.org/)  
   
   
