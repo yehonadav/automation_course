@@ -1,25 +1,25 @@
 import pytest
-from qaviton.utils.random_util import fake
-from qaviton.utils.random_util import create_random
 from tests.test_address_book.services.address_book import AddressBook
+from tests.test_address_book.config import parameters as p
 
 
 @pytest.fixture(scope='session')
-def book(request):
+def parameters():
+    a=p
+    return p
+
+
+@pytest.fixture(scope='session')
+def book(request, parameters):
     """fixture for cross-platform model-based application
     always use session scope for this type of fixture
     :rtype: AddressBook
     """
-    expected_name = fake.name().replace(' ', '_')
-    expected_address = fake.address()
-    expected_email = expected_name + '@gmail.com'
-    expected_phone = create_random.numbers(length=10)
-
     book = AddressBook(
-        name=expected_name,
-        address=expected_address,
-        email=expected_email,
-        phone=expected_phone
+        name=parameters.name,
+        address=parameters.address,
+        email=parameters.email,
+        phone=parameters.phone
     )
     book.create()
     request.addfinalizer(book.delete)
@@ -34,3 +34,16 @@ def empty_book():
     """
     book = AddressBook(None, None, None, None)
     return book
+
+
+@pytest.fixture(scope='session')
+def add_contact(book, parameters):
+    printed_msgs, input_msgs = book.display_contacts_interface()
+    assert printed_msgs == ['No Records in database.']
+
+    return book.add_contacts_interface(
+        name=parameters.name,
+        address=parameters.address,
+        email=parameters.email,
+        phone=parameters.phone
+    )

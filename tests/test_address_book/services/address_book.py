@@ -28,7 +28,7 @@ class AddressBook(address_book.AddressBook):
     inputs = []
     input_msgs = []
 
-    filename = 'mock_address_book'
+    filename = 'mock_address_book.db'
 
     def __init__(self, name: str, address: str, email: str, phone: str):
         address_book.AddressBook.__init__(self, name, address, email, phone)
