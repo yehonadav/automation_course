@@ -1,0 +1,57 @@
+{
+  "supported_platforms": [{
+    "browserName": "",
+    "version": "",
+    "platform": "Windows 10",
+    "app": "apps/address_book/address_book.py",
+    "screenResolution": "",
+    "sessionTimeout": 300,
+    "enableVNC": false,
+    "enableVideo": false,
+    "name": "{}",
+    "videoName": "{}.mp4",
+    "logName": "{}.log"
+  }],
+  "test_requirements": [
+    {
+      "type": "unit",
+      "description": "address book object constructor, can receive optional parameters: name, address, email, phone and save them as attributes, returns an object with the following methods: __str__, __repr__, add_contacts, get_user_details, display_contacts, search_contact, modify_contact",
+      "path": "apps/address_book/address_book.py::AddressBook.__init__"
+    },
+    {
+      "type": "unit",
+      "description": "return a string with this format: [Name: {} | Address: {} | Email: {} | Phone: {}]",
+      "path": "apps/address_book/address_book.py::AddressBook.__str__"
+    },
+    {
+      "type": "unit",
+      "description": "return a string with this format: [Name: {} | Address: {} | Email: {} | Phone: {}]",
+      "path": "apps/address_book/address_book.py::AddressBook.__repr__"
+    },
+    {
+      "type": "unit",
+      "description": "this function adds any contacts to the address book database",
+      "path": "apps/address_book/address_book.py::AddressBook.add_contacts"
+    },
+    {
+      "type": "unit",
+      "description": "this function asks for Contact's Full Name,Address,Email Address,Phone Number. saves the result in the object's contacts in dict format and return the result. if an error occurs it is raised",
+      "path": "apps/address_book/address_book.py::AddressBook.get_user_details"
+    },
+    {
+      "type": "unit",
+      "description": "this function prints all records from the database, if the database is not accessible or empty, a message for no records is printed",
+      "path": "apps/address_book/address_book.py::AddressBook.display_contacts"
+    },
+    {
+      "type": "unit",
+      "description": "if the database is not accessible or empty, a message for no records is printed otherwise this function asks for a name to search, if an error occur it is printed, for any name that is found the contact info is printed, if none are found an appropriate message is printed",
+      "path": "apps/address_book/address_book.py::AddressBook.search_contact"
+    },
+    {
+      "type": "unit",
+      "description": "this function modifies a contact",
+      "path": "apps/address_book/address_book.py::AddressBook.modify_contact"
+    }
+  ]
+}
