@@ -38,7 +38,7 @@ class AddressBook(address_book.AddressBook):
         self.expected_phone = phone
 
     @interface
-    def modify_contact_interface(self, name: str, modify: str, new_value: str):
+    def modify_contact_interface(self, name: str, modify: str, new_value):
         self.inputs = [name, modify, new_value]
         address_book.AddressBook.modify_contact(self)
 
@@ -109,4 +109,11 @@ class AddressBook(address_book.AddressBook):
         assert callable(self.modify_contact)
         assert callable(self.search_contact)
 
-
+    def assert_contact_exist(self, parameters):
+        printed_msgs, input_msgs = self.search_contact_interface(name=parameters.name)
+        assert input_msgs == ['Enter the name of the contact to search: ']
+        assert len(printed_msgs) == 1
+        assert printed_msgs[0]['Name'] == parameters.name
+        assert printed_msgs[0]['Address'] == parameters.address
+        assert printed_msgs[0]['Email'] == parameters.email
+        assert printed_msgs[0]['Phone'] == int(parameters.phone)
