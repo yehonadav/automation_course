@@ -1,0 +1,3 @@
+the unit tests are fast and relatively cheap but provide very little quality assurance
+* integration tests & E2E tests are required...
+* more unit tests are required, negative tests are missing & more assertions for different lines of code
