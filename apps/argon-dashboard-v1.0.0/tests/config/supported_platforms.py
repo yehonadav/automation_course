@@ -2,7 +2,7 @@ from qaviton import crosstest
 from tests.config.secret import hub
 
 
-web_app = 'http://localhost:63342/automation_course/apps/argon-dashboard-v1.0.0/examples/maps.html'
+web_app = 'https://demos.creative-tim.com/argon-dashboard/index.html'
 
 
 screenResolution = "800x600x24"
