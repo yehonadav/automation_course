@@ -1,11 +1,10 @@
 import pytest
-from tests.test_address_book.services.address_book import AddressBook
-from tests.test_address_book.config import parameters as p
+from apps.address_book.tests.services.address_book import AddressBook
+from apps.address_book.tests.config import parameters as p
 
 
 @pytest.fixture(scope='session')
 def parameters():
-    a=p
     return p
 
 

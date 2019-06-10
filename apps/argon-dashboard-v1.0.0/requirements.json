@@ -1,0 +1,89 @@
+{
+  "supported_platforms": [{
+    "browserName": "chrome",
+    "version": "",
+    "platform": "ANY",
+    "app": "http://localhost:63342/automation_course/apps/argon-dashboard-v1.0.0/index.html",
+    "screenResolution": "800x600x24",
+    "sessionTimeout": 600,
+    "enableVNC": false,
+    "enableVideo": false,
+    "name": "{}",
+    "videoName": "{}.mp4",
+    "logName": "{}.log"
+  }],
+  "test_requirements": [
+    {
+      "type": "web",
+      "description": "a dashboard application",
+      "path": "apps/argon-dashboard-v1.0.0/index.html",
+      "components": [
+        {
+          "type": "landing_page",
+          "name": "Dashboard",
+          "description": "",
+          "components": [
+            {"type": "component", "name": "SideNavBar"},
+            {"type": "component", "name": "TopNavBar"},
+            {"type": "component", "name": "Header"},
+            {"type": "component", "name": "TrafficCard"},
+            {"type": "component", "name": "NewUsersCard"},
+            {"type": "component", "name": "SalesCard"},
+            {"type": "component", "name": "PerformanceCard"},
+            {"type": "component", "name": "OverviewChart"},
+            {"type": "component", "name": "PerformanceChart"},
+            {"type": "component", "name": "PageVisitsTable"},
+            {"type": "component", "name": "SocialTrafficTable"},
+            {"type": "component", "name": "Footer"}
+          ]
+        },
+        {
+          "type": "page",
+          "name": "Icons",
+          "description": "",
+          "components": [
+            {"type": "component", "name": "SideNavBar"},
+            {"type": "component", "name": "TopNavBar"},
+            {"type": "component", "name": "Header"},
+            {"type": "component", "name": "TrafficCard"},
+            {"type": "component", "name": "NewUsersCard"},
+            {"type": "component", "name": "SalesCard"},
+            {"type": "component", "name": "PerformanceCard"},
+            {"type": "component", "name": "IconBoard"},
+            {"type": "component", "name": "Footer"}
+          ]
+        },
+        {
+          "type": "page",
+          "name": "Icons",
+          "description": "",
+          "components": [
+            {"type": "component", "name": "SideNavBar"},
+            {"type": "component", "name": "TopNavBar"},
+            {"type": "component", "name": "Header"},
+            {"type": "component", "name": "TrafficCard"},
+            {"type": "component", "name": "NewUsersCard"},
+            {"type": "component", "name": "SalesCard"},
+            {"type": "component", "name": "PerformanceCard"},
+            {"type": "component", "name": "IconBoard"},
+            {"type": "component", "name": "Footer"}
+          ]
+        },
+        {
+          "type": "component",
+          "name": "Header",
+          "description": "",
+          "components": [
+            {"type": "component", "name": "TrafficCard"},
+            {"type": "component", "name": "NewUsersCard"},
+            {"type": "component", "name": "SalesCard"},
+            {"type": "component", "name": "PerformanceCard"}
+          ]
+        }
+      ],
+      "locators": [
+
+      ]
+    }
+  ]
+}
