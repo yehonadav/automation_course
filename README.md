@@ -7,6 +7,9 @@
   
 </h1>
 
+[![open issues](https://img.shields.io/github/issues/yehonadav/automation_course)](https://github/issues-raw/yehonadav/automation_course)  
+![GitHub repo size](https://img.shields.io/github/repo-size/yehonadav/automation_course)  
+
 ```                         
                                                   .andAHHAbnn.                                                
                                                .aAHHHAAUUAAHHHAn.                                                
